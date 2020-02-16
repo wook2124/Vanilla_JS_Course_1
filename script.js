@@ -15,4 +15,4 @@ const wookInfo = {
   ]
 };
 
-console.log(wookInfo.favFood[0].name);
+console.log(wookInfo.favFood[1].name, wookInfo.favMovies[0], wookInfo.favFood[0].fatty);
