@@ -1,4 +1,18 @@
-const holiday = "When is your vacation?"
-const daysOfWeek = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun", holiday];
+const wookInfo = {
+  name: "YoungWook",
+  age: 27,
+  gender: "Male",
+  isHandsome: true,
+  favMovies: ["Lord of the ring", "Parasite"],
+  favFood: [
+    { 
+      name: "참치", 
+      fatty: true 
+    }, 
+    { name: "김치", 
+      fatty: false 
+    }
+  ]
+};
 
-console.log(daysOfWeek)
+console.log(wookInfo.favFood[0].name);
