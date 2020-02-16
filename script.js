@@ -1,1 +1,4 @@
-console.log("I'm Working. I'm JS. I'm worth it. I'm beautiful.");
+let a = 221;
+let b = a - 5;
+a = 4;
+console.log(b, a);
