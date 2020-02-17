@@ -22,4 +22,4 @@ const division = calculator.division(10, 3);
 const times = calculator.times(10, 3);
 const power = calculator.power(10, 3);
 
-console.log(plus, minus, division, times, power);
+console.log(plus, minus, division, times, power); 
