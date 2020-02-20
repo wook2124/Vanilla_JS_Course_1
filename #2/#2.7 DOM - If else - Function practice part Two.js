@@ -47,7 +47,6 @@ function init() {
 }
 init();
 
-
 // cursor(커서)를 pointer로 보이게끔 하는 것을 css로 정해줌
 // html 파일에서도 class="button"을 추가하면 홈페이지에서 처음 title을 보이는 마우스 커서가 pointer로 바뀜.
 // 하지만 click event가 발생하면 class='clicked'로 대체되면서 class='button'이 없어짐.
