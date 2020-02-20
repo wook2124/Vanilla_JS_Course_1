@@ -1,7 +1,14 @@
-const title = document.querySelector("#title");
+const age = prompt("How old are you");
 
-function handleClick(){
-  title.style.color = "green";
+if(age > 18 && age <= 22) {
+  console.log("You can drink but you should not");
 }
-
-title.addEventListener("click", handleClick);
+else if(age > 22) {
+  console.log("Go ahead!");
+}
+else if(age == 18) {
+  console.log("You are new to this, watch out!");
+}
+else {
+  console.log("You are too young!");
+}
