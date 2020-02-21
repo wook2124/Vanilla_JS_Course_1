@@ -22,7 +22,7 @@ function init() {}
 init();
 
 // clockTitle.innerText - h1으로 js-title인 00시00분을 바꾸기 위한 것!(객체 안에 텍스트를 넣기 위함)
-// 백틱`__`으로 hours와 minutes를 argument화해서 시간으로 표시함!
+// 백틱`__`으로 hours와 minutes를 argument화해서 시간으로 표시함! - $은 python에서 f(format)과 동일함.
 const clockContainer = document.querySelector(".js-clock"), 
   clockTitle = clockContainer.querySelector("h1");
 
