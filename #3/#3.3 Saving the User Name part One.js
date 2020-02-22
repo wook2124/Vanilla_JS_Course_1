@@ -80,7 +80,7 @@ function init() {
 
 init();
 
-// currentUser(key)값이 null이 아니면 `Hello {currentUser}`가 뜰 것이다.
+// currentUser(key)값이 null이 아니면 paintGreeting(text)는 form을 제거(remove)하고 greeting을 classList에 add(추가)해서 나에게 보여주고, `Hello {currentUser}`가 뜰 것임!
 // 실험해보기! Key 값으로 currentUser로 설정하고 Value도 주었음 - 이제 currentUser가 null값이 아님!
 const form = document.querySelector(".js-form"),
   input = form.querySelector("input"),
