@@ -82,7 +82,7 @@ function delToDo(event) {
 }
 
 // cleanToDo를 추가해서 li id 한번에 전부 clean 하고자함!
-// filter는 array의 모든 아이템을 통해 function(함수)를 실행한 뒤 true 값인 아이템들만 가지고 새로운 array를 만든다
+// filter는 array의 모든 item에 function(함수)를 실행한 뒤 true 값인 item만 가지고 새로운 array를 만듦
 // 하지만 toDo.id와 li.id가 같은 값이 아님 (toDo.id는 int고, li.id는 str 값을 가짐)
 function delToDo(event) {
   const btn = event.target;
@@ -132,6 +132,7 @@ function delToDo(event) {
 
 // 최종 코드
 // forEach, filter 개념 정확히 알기!
+// forEach와 filter - list에 있는 모든 item에 함수를 실행시키는 역할
 const toDoForm = document.querySelector(".js-toDoForm"),
   toDoInput = toDoForm.querySelector("input"),
   toDoList = document.querySelector(".js-toDoList");
