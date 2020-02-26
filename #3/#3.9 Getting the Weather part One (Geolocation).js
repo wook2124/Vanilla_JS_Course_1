@@ -70,7 +70,8 @@ function init() {
 
 init();
 
-// https://openweathermap.org/api 가입한다음 API keys에서 Key를 복사함
+// https://openweathermap.org/api 가입한다음 API keys에서 Key를 복사함 
+// API(Application Programming Interface), 다른 서버로부터 손쉽게 데이터를 가져올 수 있는 수단
 // const API_KEY로 openWeather Server를 가져오기 위한 API Key 가져오기 끝!
 const API_KEY = "ded8b1690ab3da1a4ef762795e744b2f"
 const COORDS = "coords";
