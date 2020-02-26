@@ -23,3 +23,5 @@ https://developer.mozilla.org/ko/
 https://flatuicolors.com/
 
 https://unsplash.com/
+
+https://openweathermap.org/api
