@@ -1,1 +1,168 @@
 // style.css로 이쁘게 html 꾸미기 대작전!
+
+// index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Momentum-Clone</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="js-clock">
+        <h1>00:00</h1>
+      </div>
+      <form class="js-form form showing">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+      <h4 class="js-greeting greeting"></h4>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <ul class="js-toDoList">
+      </ul>
+    </div>
+    <span class="js-weather"></span>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="toDo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
+
+// style.css
+html {
+  color: -internal-root-color;
+}
+
+body {
+  color: #ffffff;
+  background-color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  cursor: default;
+  font-size: 1050%;
+  letter-spacing: -5px;
+  font-weight: 500;
+  user-select: none;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  cursor: default;
+  font-size: 1050%;
+  letter-spacing: -5px;
+}
+
+.showing {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border: none;
+  background-color: rgb(10, 10, 10);
+  color: #d4d4d4;
+  opacity: 0.7;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.greetings {
+  font-weight: 500;
+  user-select: none;
+  display: flex;
+  line-height: normal;
+  border: none;
+  background-color: rgb(10, 10, 10);
+  color: #d4d4d4;
+  opacity: 0.7;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.toDoList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.weather {
+  color: #d4d4d4;
+  background-color: rgb(75, 75, 75);
+  opacity: 0.8;
+  padding: 5px 15px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  font-size: 20px;
+}
+
+.button {
+  cursor: pointer;
+  size: 10x10;
+}
+
+.clicked {
+  color: #8e44ad;
+}
+
+.form,
+.greeting {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}

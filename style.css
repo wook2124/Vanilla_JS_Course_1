@@ -1,13 +1,103 @@
-body {
-  background-color: #2c3e50;
-}
-
-.button {
-  cursor: pointer;
+html {
+  color: -internal-root-color;
 }
 
 body {
   color: #ffffff;
+  background-color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  cursor: default;
+  font-size: 1050%;
+  letter-spacing: -5px;
+  font-weight: 500;
+  user-select: none;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  cursor: default;
+  font-size: 1050%;
+  letter-spacing: -5px;
+}
+
+.showing {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border: none;
+  background-color: rgb(10, 10, 10);
+  color: #d4d4d4;
+  opacity: 0.7;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.greetings {
+  font-weight: 500;
+  user-select: none;
+  display: flex;
+  line-height: normal;
+  border: none;
+  background-color: rgb(10, 10, 10);
+  color: #d4d4d4;
+  opacity: 0.7;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.toDoList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.weather {
+  color: #d4d4d4;
+  background-color: rgb(75, 75, 75);
+  opacity: 0.8;
+  padding: 5px 15px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  font-size: 20px;
+}
+
+.button {
+  cursor: pointer;
+  size: 10x10;
 }
 
 .clicked {
