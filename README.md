@@ -4,6 +4,9 @@
 Nomad Coders's Vanilla JS Course 1
 It's started since 2020.02.13.~2020.02.26.
 
+## Demo Picture
+![](demo.png)
+
 ## Website (made by. JS)
 - https://momentumdash.com/
 - https://world-draw.appspot.com/
