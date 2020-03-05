@@ -1,11 +1,12 @@
-# Momentum-Clone
-
-## Vanilla JS Course 1
+# Vanilla JS Course 1
 - Nomad Coders's Vanilla JS Course 1
 - It's started since 2020.02.13.~2020.02.26.
 
-## Demo Picture
-![](demo.png)
+## Demo Link
+https://wook2124.github.io/Vanilla_JS_Course_1/
+
+## Demo Video
+![](demo.gif)
 
 ## Website (made by. JS)
 - https://momentumdash.com/
