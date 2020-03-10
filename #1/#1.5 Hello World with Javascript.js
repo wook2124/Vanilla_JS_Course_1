@@ -11,6 +11,7 @@
   </body>
 </html>
 
+
 //style.css
 body{
   background-color: peru;
@@ -20,8 +21,10 @@ h1{
   color:aliceblue;
 }
 
+
 // script.js
 console.log("I'm Working. I'm JS. I'm worth it. I'm beautiful.");
+
 
 // 원래 index.html에 적혀있던 코드
 <!DOCTYPE html>
