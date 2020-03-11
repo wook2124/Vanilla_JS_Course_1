@@ -1,6 +1,6 @@
 # Vanilla JS Course 1
-- Nomad Coders's Vanilla JS Course 1
-- It's started since 2020.02.13.~2020.02.26.
+Nomad Coders's Vanilla JS Course 1
+`It's started since 2020.02.13.~2020.02.26.`
 
 ## Demo Link
 [Vanilla JS](https://wook2124.github.io/Vanilla_JS_Course_1/)
@@ -9,17 +9,17 @@
 ![](demo.gif)
 
 ## Website (made by. JS)
-- https://momentumdash.com/
-- https://world-draw.appspot.com/
-- https://impactjs.com/games
-- https://threejs.org/
-- http://taotajima.jp/
+- [Momentum](https://momentumdash.com/)
+- [world-draw](https://world-draw.appspot.com/)
+- [impactjs](https://impactjs.com/games)
+- [threejs](https://threejs.org/)
+- [taotajima](http://taotajima.jp/)
 ### `Helpful Website`
-- http://vanilla-js.com/
-- https://developer.mozilla.org/ko/
-- https://flatuicolors.com/
-- https://unsplash.com/
-- https://openweathermap.org/api
+- [vanilla-js](http://vanilla-js.com/)
+- [developer.mozilla](https://developer.mozilla.org/ko/)
+- [flatuicolors](https://flatuicolors.com/)
+- [unsplash](https://unsplash.com/)
+- [openweathermap](https://openweathermap.org/api)
 
 ## Project Description 
 This is the first webpage I created. It contains many functions. Enjoy!  
