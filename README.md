@@ -3,7 +3,7 @@
 - It's started since 2020.02.13.~2020.02.26.
 
 ## Demo Link
-https://wook2124.github.io/Vanilla_JS_Course_1/
+[Vanilla JS](https://wook2124.github.io/Vanilla_JS_Course_1/)
 
 ## Demo Video
 ![](demo.gif)
