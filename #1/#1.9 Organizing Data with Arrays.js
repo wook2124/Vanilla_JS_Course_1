@@ -1,4 +1,4 @@
-// 너무 비효율적임!!
+// 이렇게 일일이 적는건 너무 비효율적임
 const monday = "Mon";
 const tuesday = "Tue";
 const wednesday = "Wed";
@@ -17,7 +17,7 @@ const daysOfWeek = ["Mon", "Tue", "Wed", "Thur", "Fri"];
 console.log(daysOfWeek)
 
 
-// Data Type에 맞으면 다 출력할 수 있음!
+// Data Type에 맞으면 모두 출력할 수 있음
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thur", "Fri", true, false, 666, 666.77];
 
 console.log(daysOfWeek)
