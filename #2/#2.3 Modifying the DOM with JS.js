@@ -8,5 +8,5 @@ title.style.color = "red";
 document.title = "I own you now";
 console.dir(document);
 // console.dir(x)
-// console의 method인 dir을 통해서 console 안에있는 모든 object를 살펴볼 수 있음
+// dir로 document 안에 있는 모든 object를 console을 통해 살펴볼 수 있음
 // title.으로 title의 모든 method를 입력할 수 있음
