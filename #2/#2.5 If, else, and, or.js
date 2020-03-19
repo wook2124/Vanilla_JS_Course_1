@@ -49,7 +49,7 @@ else {
 }
 
 
-// ||(Or) - condition(조건)의 둘 중 적어도 하나는 true(참)이여야함
+// ||(Or) - condition(조건) 중 적어도 하나는 true(참)이여야함
 if("10" === 10 || "wook" === "zook"){
   console.log("Yes");
 }
