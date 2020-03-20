@@ -16,7 +16,7 @@ function init() {
 init();
 
 
-// https://flatuicolors.com 에서 원하는 색깔가져오기
+// https://flatuicolors.com 에서 원하는 색깔 가져오기
 // currentColor = title.style.color로 설정하고,
 // if(만약) 처음 클릭할 때 condition(조건)으로 
 // currentColor가 BASE_COLOR 색이라면 OTHER_COLOR로 바뀌게 하고, 
