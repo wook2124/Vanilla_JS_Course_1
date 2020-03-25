@@ -1,7 +1,7 @@
 // setInterval(fn, 1234)
 // fn(첫 번째 parameter)는 실행할 함수, 1234(두 번째 parameter)는 그 함수를 실행할 시간 간격
+// 두 번째 parameter의 시간 간격은 milliseconds, 1000 milliseconds = 1초
 // setInterval(sayHi, 3000) 
-// milliseconds로 1초가 1000 milliseconds임
 // "sayHi 함수(fn)"가 "3초(3000 milliseconds)"간격으로 바뀜
 function sayHi() { console.log("say hi") }
 
@@ -18,8 +18,9 @@ init();
 
 
 // ternary operator(삼항 연산자), mini if문
-// seconds가 10초보다 < 작으면(if는 ?로 표시), 직역하면 "seconds가 10보다 작니? 그럼 ~~해라"
-// `0을 붙인 {seconds}`를 출력하고, 아니라면(else는 :로 표시) 그대로 {seconds} 출력
+// seconds가 10초보다 < 작으면(if는 ?로 표시),
+// `0을 붙인 {seconds}`를 출력하고, 아니면(else는 :로 표시) 그대로 {seconds} 출력
+// 직역하면 "seconds가 10보다 작니 ? true(참)이면 `~~하고`, : 아니면(else) ~~해라"
 const clockContainer = document.querySelector(".js-clock"),
   clockTitle = clockContainer.querySelector("h1");
 
