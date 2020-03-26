@@ -14,7 +14,7 @@ function init() {
   setInterval(getTime, 1000);
 }
 
-init();
+init(); 
 
 
 // ternary operator(삼항 연산자), mini if문
