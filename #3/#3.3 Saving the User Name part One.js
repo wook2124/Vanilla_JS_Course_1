@@ -22,7 +22,8 @@
 
 // document는 index.html파일 자체
 // .js-form은 document의 class(.)인 "js-form" 
-// form 안에 속하는 input은 그냥 가져오면 됨
+// <form>에 들여써져있는 input은 .을 붙이지 않고 그냥 가져오면 됨
+// form - 부모, input - 자식
 const form = document.querySelector(".js-form"),
   input = form.querySelector("input");
 
