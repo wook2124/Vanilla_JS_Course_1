@@ -34,7 +34,7 @@ init();
 
 // Local Storage - 작은 JavaScript 정보들이 모인 저장소, LS는 Inspection(f12) Application에 있음
 // value를 변경해서 LS에 저장하면, key를 호출할 때 변경값이 나옴
-// null 값은 undefined, can't find를 뜻함
+// null은 undefined, can't find를 뜻함
 localStorage.getItem(key, value)
 localStorage.getItem("YoungWook", true)
 localStorage.getItem("YoungWook", is handsome?!)
