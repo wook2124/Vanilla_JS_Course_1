@@ -11,7 +11,7 @@ const USER_LS = "currentUser",
 function handleSubmit(event) {
   event.preventDefault();
 }
-// eventListener로 submit이 발생하면 handleSummit 값을 호출
+// addEventListener로 submit이 발생하면 handleSummit 값을 호출
 function askForName() {
   form.classList.add(SHOWING_CN);
   form.addEventListener("submit", handleSubmit);
@@ -40,7 +40,7 @@ function init() {
 init();
 
 
-// currentValue 값을 얻기 위해 input.value를 이용해 Enter를 쳐서 console.log로 출력해봄
+// currentValue 값을 얻기 위해 input.value를 이용해 빈칸에 Enter를 쳐서 console.log로 출력해봄
 function handleSubmit(event) {
   event.preventDefault();
   const currentValue = input.value;
@@ -48,7 +48,7 @@ function handleSubmit(event) {
 }
 
 
-// paintGreeting(currentValue)로 현재 적은 input.value를 
+// paintGreeting(currentValue)로 현재 빈칸에 적은 input.value를 
 // paintGreeting으로 보낸 다음 `Hello ${currentValue}`값이 나오게끔함
 function handleSubmit(event) {
   event.preventDefault();
