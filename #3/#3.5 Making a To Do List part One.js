@@ -64,7 +64,7 @@ init();
 
 
 // toDoInput.value = "";
-// Enter를 치면 text가 console로 "sunmit"되고, "Wirte a to do"로 다시 빈칸이 채워짐
+// Enter를 치면 text가 console로 "submit"되고, "Wirte a to do"로 다시 빈칸이 채워짐
 function handleSubmit(event) {
   event.preventDefault();
   const currentValue = toDoInput.value;
