@@ -17,7 +17,7 @@ function paintToDo(text) {
 }
 
 
-// newId를 추가해서 li도 id를 갖고 toDoObj의 id를 newId와 같은 값을 갖게함
+// newId를 정의하고 li.id를 newId와 같게 설정한 뒤 toDoObj의 id가 newId의 값을 같게 했다
 function paintToDo(text) {
   const li = document.createElement("li");
   const delBtn = document.createElement("button");
@@ -57,7 +57,7 @@ function loadToDo() {
 
 
 // JSON.parse(x) - parse(parsing, 문법적 해부)
-// loadToDO 값인 string과 parsedToDo 값인 object를 console로 출력해 비교해봄
+// loadToDo 값인 string과 parsedToDo 값인 object를 console로 출력해 비교해봄
 function loadToDo() {
   const loadToDo = localStorage.getItem(TODO_LS);
   if (loadToDo !== null) {
@@ -69,7 +69,7 @@ function loadToDo() {
 
 
 // forEach - array([] list)를 위한 function(함수)
-//  parsedToDo에 있는 각각의 항목(text로 입력한 값)에 대해 function를 실행함
+// parsedToDo에 있는 각각의 항목(text로 입력한 값)에 대해 function를 실행함
 function loadToDo() {
   const loadToDo = localStorage.getItem(TODO_LS);
   if (loadToDo !== null) {
