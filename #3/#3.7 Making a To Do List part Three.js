@@ -38,7 +38,7 @@ function delToDo(event) {
 // filter는 Array의 모든 item에 function(함수)를 실행한 뒤,
 // true 값인 item만 가지고 새로운 Array를 만듦
 // 하지만 toDo.id와 li.id가 같은 값이 아님
-// retrun한 값으로 toDo.id는 int값, li.id는 str값을 가짐
+// retrun하면 toDo.id는 int, li.id는 str으로 각각 다른 값을 가짐
 function delToDo(event) {
   const btn = event.target;
   const li = btn.parentNode;
@@ -62,9 +62,9 @@ function delToDo(event) {
 
 
 // Array로 정한 toDo에 변화를 주기위해 const가 아닌 let을 사용함
-// 여기서 toDo는 예전 정보이고, cleanToDo가 새로운 정보이기 때문에 
+// 여기서 toDo는 예전 정보이고, cleanToDo는 delToDo를 실행한 다음의 새로운 정보이기 때문에 
 // cleanToDo = toDo.filter 과정이 지나면 다시 toDo = cleanToDo가 되게끔 함 
-// 그리고 마지막으로 나온 정보를 saveToDo를 통해 저장함
+// 그리고 마지막으로 나온 정보를 saveToDo를 통해 Local Storage에 저장함
 let toDo = [];
 
 function delToDo(event) {
