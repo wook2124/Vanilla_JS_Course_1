@@ -19,6 +19,7 @@ function init() {
 
 init();
 
+
 // 다음으로 다운받은 image폴더 src(source)를 제공하고 body의 자손으로 추가하기(appendChilde), 그리고 addEventListen 하기!
 const body = document.querySelector("body");
 
@@ -47,6 +48,7 @@ function init() {
 
 init();
 
+
 // image.classList.add('bgImage') - bgImage로 class 추가하기
 // stlye.css 파일도 수정
 function paintImage(imgNumber) {
@@ -64,6 +66,7 @@ function paintImage(imgNumber) {
   width: 100%;
   height: 100%;
 }
+
 
 // 배경화면이 뜨지 않아도 일단 과정대로 따라감
 // appendChild에서 prepend로 바꿔서 body 맨앞으로 가져옴
@@ -93,6 +96,7 @@ function paintImage(imgNumber) {
   z-index: -1;
   animation: fadeIn 0.5s linear;
 }
+
 
 // 최종 코드
 // 배경화면이 뜨지 않은 이유는, 저장해둔 사진이 든 파일(Images)을 작업하고 있는 파일(bg.js)과 같은 위치에 뒀어야함! 
