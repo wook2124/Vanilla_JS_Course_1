@@ -32,7 +32,6 @@ function paintImage(imgNumber) {
 
 
 // image.classList.add("bgImage") - bgImage로 class 추가
-// stlye.css 파일에서 bgImage class 수정
 function paintImage(imgNumber) {
   const image = new Image();
   image.src = `//images/${imgNumber}.jpg`;
@@ -40,7 +39,7 @@ function paintImage(imgNumber) {
   body.appendChild(image);
   image.addEventListener("loadend", handleImgLoad);
 }
-
+// stlye.css 파일에서 bgImage class 수정
 .bgImage {
   position: absolute;
   top: 0;
@@ -58,7 +57,7 @@ function paintImage(imgNumber) {
   body.prepend(image);
   image.addEventListener("loadend", handleImgLoad);
 }
-
+// stlye.css 파일에서 keyframes 추가, bgImage class 수정
 @keyframes fadeIn {
   from {
     opacity: 0;
