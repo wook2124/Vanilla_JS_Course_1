@@ -1,6 +1,6 @@
 // index.html에 <script src="weather.js"></script> 추가 
 // weather를 가져오기 전에 geolocation을 가져옴 (coords, 좌표)
-// loadCords === null이면 askForCords가 실행되서 현재 내 위치를 물어볼 것임
+// loadCoords === null이면 askForCords가 실행되서 현재 내 위치(getCurrentPosition)를 물어볼 것임
 const COORDS = "coords";
 
 function handleGeoSuccess(position) {
