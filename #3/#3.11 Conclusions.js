@@ -1,4 +1,4 @@
-// style.css로 이쁘게 html 꾸미기 대작전!
+// Momentum Clone 마무리
 
 // index.html
 <!DOCTYPE html>
