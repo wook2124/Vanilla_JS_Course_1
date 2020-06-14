@@ -29,8 +29,8 @@ Nomad Coders's Vanilla JS Course 1
 
 ## Project Description 
 
-This is the first webpage I created. It contains many functions. Enjoy!  
-제가 처음 만든 웹페이지입니다. 여러기능들은 아래의 feature를 참고해주세요.
+This is the first web page created by cloning. Refer to the `Feature` below for the functions.  
+클론해서 만든 첫 웹페이지입니다. 기능들은 아래 `Feature`를 참고해주세요.
 
 ### `Feature` 
 
