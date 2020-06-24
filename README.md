@@ -43,7 +43,7 @@ This is the first web page created by cloning. Refer to the `Feature` below for 
 ## Customization: How to run this project
 
 Very simple. Click [Vanilla JS](https://wook2124.github.io/Vanilla_JS_Course_1/) and Enjoy!  
-위 링크를 클릭하고 사용하면 됩니다.
+[Vanilla JS](https://wook2124.github.io/Vanilla_JS_Course_1/)를 클릭하고 사용하면 됩니다.
 
 ## What I used for this project 
 
