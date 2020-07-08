@@ -14,18 +14,18 @@ Nomad Coders's Vanilla JS Course 1
 ## Website (made by. JS)
 
 - [Momentum](https://momentumdash.com/)
-- [world-draw](https://world-draw.appspot.com/)
-- [impactjs](https://impactjs.com/games)
-- [threejs](https://threejs.org/)
-- [taotajima](http://taotajima.jp/)
+- [World-draw](https://world-draw.appspot.com/)
+- [Impactjs](https://impactjs.com/games)
+- [Threejs](https://threejs.org/)
+- [Taotajima](http://taotajima.jp/)
 
 ### `Helpful Website`
 
-- [vanilla-js](http://vanilla-js.com/)
-- [developer.mozilla](https://developer.mozilla.org/ko/)
-- [flatuicolors](https://flatuicolors.com/)
-- [unsplash](https://unsplash.com/)
-- [openweathermap](https://openweathermap.org/api)
+- [Vanilla-js](http://vanilla-js.com/)
+- [Developer.mozilla](https://developer.mozilla.org/ko/)
+- [Flatuicolors](https://flatuicolors.com/)
+- [Unsplash](https://unsplash.com/)
+- [Openweathermap](https://openweathermap.org/api)
 
 ## Project Description 
 
