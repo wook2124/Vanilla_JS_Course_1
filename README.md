@@ -1,6 +1,6 @@
 # Vanilla JS Course 1
 
-Nomad Coders's Vanilla JS Course 1
+Nomad Coders's Vanilla JS Course 1  
 `2020.02.13. ~ 2020.02.26.`
 
 ## Demo Link
@@ -49,4 +49,4 @@ Very simple. Click [Vanilla JS](https://wook2124.github.io/Vanilla_JS_Course_1/)
 
 - [X] HTML
 - [X] CSS
-- [X] Vanilla JS
+- [X] JavaScript
